@@ -3,11 +3,12 @@
 import { moviesData } from "@/data/movies"
 import { useMovieContext } from "@/context/MovieContext"
 import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+
 import { Heart, Clock, ArrowLeft, Star } from "lucide-react"
 import Link from "next/link"
 import { MovieProvider } from "@/context/MovieContext"
 import { useParams } from "next/navigation"
+import Footer from "@/components/Footer"
 
 function MovieDetailContent() {
   const params = useParams()

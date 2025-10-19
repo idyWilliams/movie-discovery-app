@@ -1,11 +1,11 @@
 "use client"
 
 import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
 import { SearchBar } from "@/components/SearchBar"
 import { Filters } from "@/components/Filters"
 import { MovieList } from "@/components/MovieList"
 import { MovieProvider } from "@/context/MovieContext"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
